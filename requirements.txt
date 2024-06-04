@@ -5,6 +5,7 @@ numpy
 requests
 pytesseract
 opencv-python
+opencv-python-headless
 pillow
 ftfy
 
