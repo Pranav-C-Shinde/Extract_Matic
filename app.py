@@ -413,7 +413,7 @@ def adhaar():
                 var = cv2.Laplacian(img, cv2.CV_64F).var()
                 #st.write(f"Laplacian variance: {var}")
 
-                if var < 50:
+                if var < 1:
                     st.write("Image is Too Blurry....")
                 else:
                     # Extract text using Tesseract OCR
